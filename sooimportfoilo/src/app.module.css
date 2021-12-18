@@ -1,0 +1,71 @@
+.display {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.normalFont {
+  margin: 0px;
+  font-size: 100%;
+  word-break: break-all;
+  font-weight: 900;
+}
+
+.Wrapper {
+  width: 100vw;
+  height: 100vh;
+  font-size: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeLine {
+  border-left: 3px solid tomato;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.timeBox {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  line-height: 30px;
+  align-items: center;
+}
+
+.timedesc {
+  font-size: 30px;
+  margin: 0px;
+  font-weight: 700;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: tomato;
+  margin-right: 20px;
+  position: relative;
+  left: -15px;
+}
+
+.rightPage {
+  border-left: none;
+  border-right: 3px solid tomato;
+}
+
+.rightBox {
+  justify-content: flex-end;
+}
+
+.rightCircle {
+  margin-left: 20px;
+  margin-right: 0px;
+  left: 15px;
+}

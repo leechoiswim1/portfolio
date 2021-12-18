@@ -1,0 +1,67 @@
+.Box {
+  width: 600px;
+  height: 800px;
+  background: rgb(239, 83, 80);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.InnerBox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 33%;
+}
+.BackgroundWhite {
+  /* background: white; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Font {
+  font-size: 125px;
+  color: #ffa726;
+  font-weight: 900;
+}
+
+.image {
+  position: absolute;
+  top: 43.5%;
+  left: 50%;
+  width: 300px;
+  height: 372px;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.WrapBox {
+  width: 70%;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  width: 100%;
+  height: 33%;
+}
+
+.white {
+  background-color: white;
+  width: 100%;
+  height: 33%;
+}
+
+.InnerBox,
+.important {
+  z-index: 1000;
+}
