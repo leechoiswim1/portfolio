@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./app.module.css";
 import { Firstpage } from "./components/firstpage/firstpage";
+import { Fifthpage } from "./components/fifthpage/fifthpage";
 function App() {
   return (
     <div className={styles.display}>
@@ -11,12 +12,7 @@ function App() {
         <p className={styles.normalFont}>About myself</p>
       </div>
       <div className={styles.Wrapper}>
-        <div className={styles.timeLine}>
-          <div className={styles.timeBox}>
-            <div className={styles.circle} />
-            <p className={styles.timedesc}>대학교 졸업</p>
-          </div>
-        </div>
+        <p className={styles.normalFont}>Work Skill</p>
       </div>
       <div className={styles.Wrapper}>
         <div className={styles.timeLine.rightPage}>
@@ -27,7 +23,7 @@ function App() {
         </div>
       </div>
       <div className={styles.Wrapper}>
-        <p className={styles.normalFont}>Let's Work with Me!</p>
+        <Fifthpage />
       </div>
     </div>
   );

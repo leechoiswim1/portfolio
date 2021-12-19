@@ -1,0 +1,32 @@
+@value profileYellow from '../../common/colors.css';
+
+.wrapper {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 100%;
+}
+
+.left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  width: 60%;
+}
+
+.Font {
+  font-size: 130px;
+  color: profileYellow;
+
+  margin: 0px;
+  font-family: "Monoton", cursive;
+}
